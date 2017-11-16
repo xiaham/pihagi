@@ -1,5 +1,5 @@
-var canvasHeight = 400;
-var canvasWidth = 600;
+var canvasHeight = 900;
+var canvasWidth = 900;
 var score = 0;
 //bird
 var bird = {
@@ -8,7 +8,7 @@ var bird = {
 	width: 40,
 	height: 40,
 	yVelocity : 0,
-	yAcceleration: -1.7,
+	yAcceleration: -1,
 	draw : function(){
 		image(image_bird, this.x, this.y, this.width, this.height);
 	},
